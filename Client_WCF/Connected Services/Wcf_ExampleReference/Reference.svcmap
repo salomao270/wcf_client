@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="73f8727d-3639-49ee-870a-aed94ee9c4f2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58956/EmailService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EmailBO.wsdl" MetadataType="Wsdl" ID="4cb235b3-c065-416a-b792-e406343a4eee" SourceId="1" SourceUrl="http://localhost:58956/EmailService.svc?wsdl" />
+    <MetadataFile FileName="EmailService.xsd" MetadataType="Schema" ID="fa883c4e-085b-469a-ad53-cd12dd145d50" SourceId="1" SourceUrl="http://localhost:58956/EmailService.svc?xsd=xsd1" />
+    <MetadataFile FileName="EmailService.disco" MetadataType="Disco" ID="ac9f365c-6581-428e-a827-b723406a4ad9" SourceId="1" SourceUrl="http://localhost:58956/EmailService.svc?disco" />
+    <MetadataFile FileName="EmailService1.xsd" MetadataType="Schema" ID="f21e92b0-9aa1-474e-9b46-1e2ff95899c3" SourceId="1" SourceUrl="http://localhost:58956/EmailService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
